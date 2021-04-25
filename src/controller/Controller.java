@@ -1,8 +1,8 @@
 package controller;
 
 import java.util.LinkedList;
-import model.Dog;
 import model.Logic;
+import model.Pet;
 import processing.core.PApplet;
 
 public class Controller {
@@ -26,9 +26,9 @@ public class Controller {
 		logic.sortList(key);
 	}
 
-	public LinkedList <Pet> dog(){
+	public LinkedList <Pet> pet(){
 		
-		return logic.getDog();
+		return logic.getPet();
 	}
 
 	public PApplet getApp() {

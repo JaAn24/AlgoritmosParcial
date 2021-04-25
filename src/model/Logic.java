@@ -16,12 +16,11 @@ public class Logic {
 	//list
 	private LinkedList<Pet> pet;
 	
-	//classes for partial ordering
 	PetName Name;
 	PetBreed Breed;
 	PetDate Date;
 	
-	//saves lists by attributes
+	//saves lists
 	private String[] saveId, saveName, saveBreed, saveDate;
 	
 	public Logic (PApplet app) {
@@ -209,11 +208,11 @@ public class Logic {
 		this.text2 = text2;
 	}
 
-	public LinkedList<Pet> getDog() {
+	public LinkedList<Pet> getPet() {
 		return pet;
 	}
 
-	public void setDog(LinkedList<Pet> pet) {
+	public void setPet(LinkedList<Pet> pet) {
 		this.pet = pet;
 	}
 

@@ -11,7 +11,7 @@ public class Pet implements Comparable<Pet> {
 	private String  name, breed, date;
 	
 	
-	public void Pet(PApplet app, int id, String name, String breed, String date) {
+	public Pet(PApplet app, int id, String name, String breed, String date) {
 		
 		this.app=app;
 		
@@ -74,7 +74,6 @@ public class Pet implements Comparable<Pet> {
 
 	@Override
 	public int compareTo(Pet nextPet) {
-		// TODO Auto-generated method stub
 		return this.id-nextPet.getId();
 	}
 }
